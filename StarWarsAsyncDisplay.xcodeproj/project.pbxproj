@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45986142D97AC3EF20620D90 /* Pods_StarWarsAsyncDisplay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E8BC31A76C7D826A522147 /* Pods_StarWarsAsyncDisplay.framework */; };
+		7A0EC39B1E5FC9BC0008BA04 /* FilmFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0EC39A1E5FC9BC0008BA04 /* FilmFeedViewController.swift */; };
+		7A0EC39F1E5FE0A30008BA04 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0EC39E1E5FE0A30008BA04 /* Film.swift */; };
+		7A0EC3A31E5FE1270008BA04 /* Date Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0EC3A21E5FE1270008BA04 /* Date Extension.swift */; };
+		7A0EC3A51E5FE31F0008BA04 /* SwapiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0EC3A41E5FE31F0008BA04 /* SwapiService.swift */; };
+		7A0EC3A71E5FE8E70008BA04 /* UIColor + HexColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0EC3A61E5FE8E70008BA04 /* UIColor + HexColors.swift */; };
+		7A0EC3A91E5FE9D60008BA04 /* FilmFeedInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0EC3A81E5FE9D60008BA04 /* FilmFeedInteractorIO.swift */; };
+		7A0EC3AB1E5FEF5D0008BA04 /* FilmFeedDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0EC3AA1E5FEF5D0008BA04 /* FilmFeedDataManager.swift */; };
 		7A914B321E556BB90016494A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A914B311E556BB90016494A /* AppDelegate.swift */; };
-		7A914B341E556BB90016494A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A914B331E556BB90016494A /* ViewController.swift */; };
-		7A914B371E556BB90016494A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A914B351E556BB90016494A /* Main.storyboard */; };
 		7A914B391E556BB90016494A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A914B381E556BB90016494A /* Assets.xcassets */; };
 		7A914B3C1E556BB90016494A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A914B3A1E556BB90016494A /* LaunchScreen.storyboard */; };
 		7A914B471E556BB90016494A /* StarWarsAsyncDisplayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A914B461E556BB90016494A /* StarWarsAsyncDisplayTests.swift */; };
+		7AA135301E669D68009D01B2 /* FilmFeedInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA1352F1E669D68009D01B2 /* FilmFeedInteractor.swift */; };
+		7AA135361E669ED8009D01B2 /* FilmFeedTableDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA135351E669ED8009D01B2 /* FilmFeedTableDataProvider.swift */; };
+		7AA135381E669F75009D01B2 /* FilmCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA135371E669F75009D01B2 /* FilmCellNode.swift */; };
+		7AA1353A1E66A5AC009D01B2 /* sw5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AA135391E66A5AC009D01B2 /* sw5.jpg */; };
+		7AA1353C1E66AA70009D01B2 /* NSAttributedString+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA1353B1E66AA70009D01B2 /* NSAttributedString+Additions.swift */; };
+		BF5BFFEE31D2981D6B81F61A /* Pods_StarWarsAsyncDisplayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A88F55EA7AADB985D096A46 /* Pods_StarWarsAsyncDisplayTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +38,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05E8BC31A76C7D826A522147 /* Pods_StarWarsAsyncDisplay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarWarsAsyncDisplay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27CC91C6D435C2FF09A82E8F /* Pods-StarWarsAsyncDisplayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWarsAsyncDisplayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarWarsAsyncDisplayTests/Pods-StarWarsAsyncDisplayTests.release.xcconfig"; sourceTree = "<group>"; };
+		686B98C2A92707C8DD355B7D /* Pods-StarWarsAsyncDisplay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWarsAsyncDisplay.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarWarsAsyncDisplay/Pods-StarWarsAsyncDisplay.release.xcconfig"; sourceTree = "<group>"; };
+		7A0EC39A1E5FC9BC0008BA04 /* FilmFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmFeedViewController.swift; sourceTree = "<group>"; };
+		7A0EC39E1E5FE0A30008BA04 /* Film.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		7A0EC3A21E5FE1270008BA04 /* Date Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date Extension.swift"; sourceTree = "<group>"; };
+		7A0EC3A41E5FE31F0008BA04 /* SwapiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwapiService.swift; sourceTree = "<group>"; };
+		7A0EC3A61E5FE8E70008BA04 /* UIColor + HexColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor + HexColors.swift"; sourceTree = "<group>"; };
+		7A0EC3A81E5FE9D60008BA04 /* FilmFeedInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmFeedInteractorIO.swift; sourceTree = "<group>"; };
+		7A0EC3AA1E5FEF5D0008BA04 /* FilmFeedDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmFeedDataManager.swift; sourceTree = "<group>"; };
 		7A914B2E1E556BB90016494A /* StarWarsAsyncDisplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarsAsyncDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A914B311E556BB90016494A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7A914B331E556BB90016494A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7A914B361E556BB90016494A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A914B381E556BB90016494A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A914B3B1E556BB90016494A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A914B3D1E556BB90016494A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A914B421E556BB90016494A /* StarWarsAsyncDisplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsAsyncDisplayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A914B461E556BB90016494A /* StarWarsAsyncDisplayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsAsyncDisplayTests.swift; sourceTree = "<group>"; };
 		7A914B481E556BB90016494A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA1352F1E669D68009D01B2 /* FilmFeedInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmFeedInteractor.swift; sourceTree = "<group>"; };
+		7AA135351E669ED8009D01B2 /* FilmFeedTableDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmFeedTableDataProvider.swift; sourceTree = "<group>"; };
+		7AA135371E669F75009D01B2 /* FilmCellNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmCellNode.swift; sourceTree = "<group>"; };
+		7AA135391E66A5AC009D01B2 /* sw5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sw5.jpg; sourceTree = "<group>"; };
+		7AA1353B1E66AA70009D01B2 /* NSAttributedString+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Additions.swift"; sourceTree = "<group>"; };
+		9A88F55EA7AADB985D096A46 /* Pods_StarWarsAsyncDisplayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarWarsAsyncDisplayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA0B8A2F72185C8AF135FC9 /* Pods-StarWarsAsyncDisplay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWarsAsyncDisplay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarWarsAsyncDisplay/Pods-StarWarsAsyncDisplay.debug.xcconfig"; sourceTree = "<group>"; };
+		D9DD740DCC2DBA1DCEE82CB0 /* Pods-StarWarsAsyncDisplayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWarsAsyncDisplayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarWarsAsyncDisplayTests/Pods-StarWarsAsyncDisplayTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45986142D97AC3EF20620D90 /* Pods_StarWarsAsyncDisplay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF5BFFEE31D2981D6B81F61A /* Pods_StarWarsAsyncDisplayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +92,8 @@
 				7A914B301E556BB90016494A /* StarWarsAsyncDisplay */,
 				7A914B451E556BB90016494A /* StarWarsAsyncDisplayTests */,
 				7A914B2F1E556BB90016494A /* Products */,
+				9A51F787DC078BC7EE59372D /* Pods */,
+				F0658161073A3AA89AC4C63E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +110,12 @@
 			isa = PBXGroup;
 			children = (
 				7A914B311E556BB90016494A /* AppDelegate.swift */,
-				7A914B331E556BB90016494A /* ViewController.swift */,
-				7A914B351E556BB90016494A /* Main.storyboard */,
-				7A914B381E556BB90016494A /* Assets.xcassets */,
-				7A914B3A1E556BB90016494A /* LaunchScreen.storyboard */,
-				7A914B3D1E556BB90016494A /* Info.plist */,
+				7AA135331E669E7C009D01B2 /* Modules */,
+				7AA135341E669EA1009D01B2 /* Model */,
+				7AA135321E669E66009D01B2 /* Services */,
+				7AA135311E669E5B009D01B2 /* Helpers */,
+				7AA135391E66A5AC009D01B2 /* sw5.jpg */,
+				7A914B511E556BC20016494A /* Supporting Files */,
 			);
 			path = StarWarsAsyncDisplay;
 			sourceTree = "<group>";
@@ -96,6 +129,75 @@
 			path = StarWarsAsyncDisplayTests;
 			sourceTree = "<group>";
 		};
+		7A914B511E556BC20016494A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A914B381E556BB90016494A /* Assets.xcassets */,
+				7A914B3A1E556BB90016494A /* LaunchScreen.storyboard */,
+				7A914B3D1E556BB90016494A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AA135311E669E5B009D01B2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7A0EC3A21E5FE1270008BA04 /* Date Extension.swift */,
+				7A0EC3A61E5FE8E70008BA04 /* UIColor + HexColors.swift */,
+				7AA1353B1E66AA70009D01B2 /* NSAttributedString+Additions.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		7AA135321E669E66009D01B2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7A0EC3A41E5FE31F0008BA04 /* SwapiService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		7AA135331E669E7C009D01B2 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				7A0EC39A1E5FC9BC0008BA04 /* FilmFeedViewController.swift */,
+				7A0EC3AA1E5FEF5D0008BA04 /* FilmFeedDataManager.swift */,
+				7AA1352F1E669D68009D01B2 /* FilmFeedInteractor.swift */,
+				7A0EC3A81E5FE9D60008BA04 /* FilmFeedInteractorIO.swift */,
+				7AA135351E669ED8009D01B2 /* FilmFeedTableDataProvider.swift */,
+				7AA135371E669F75009D01B2 /* FilmCellNode.swift */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		7AA135341E669EA1009D01B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A0EC39E1E5FE0A30008BA04 /* Film.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9A51F787DC078BC7EE59372D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACA0B8A2F72185C8AF135FC9 /* Pods-StarWarsAsyncDisplay.debug.xcconfig */,
+				686B98C2A92707C8DD355B7D /* Pods-StarWarsAsyncDisplay.release.xcconfig */,
+				D9DD740DCC2DBA1DCEE82CB0 /* Pods-StarWarsAsyncDisplayTests.debug.xcconfig */,
+				27CC91C6D435C2FF09A82E8F /* Pods-StarWarsAsyncDisplayTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0658161073A3AA89AC4C63E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05E8BC31A76C7D826A522147 /* Pods_StarWarsAsyncDisplay.framework */,
+				9A88F55EA7AADB985D096A46 /* Pods_StarWarsAsyncDisplayTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A914B4B1E556BB90016494A /* Build configuration list for PBXNativeTarget "StarWarsAsyncDisplay" */;
 			buildPhases = (
+				E17F085A8AE1896A5B1D5C79 /* [CP] Check Pods Manifest.lock */,
 				7A914B2A1E556BB90016494A /* Sources */,
 				7A914B2B1E556BB90016494A /* Frameworks */,
 				7A914B2C1E556BB90016494A /* Resources */,
+				D484C5A339951505F2B83C3D /* [CP] Embed Pods Frameworks */,
+				EBC67B74034963E31CC8D737 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A914B4E1E556BB90016494A /* Build configuration list for PBXNativeTarget "StarWarsAsyncDisplayTests" */;
 			buildPhases = (
+				00BF62D5602FFAF456CC0ED4 /* [CP] Check Pods Manifest.lock */,
 				7A914B3E1E556BB90016494A /* Sources */,
 				7A914B3F1E556BB90016494A /* Frameworks */,
 				7A914B401E556BB90016494A /* Resources */,
+				39ECD68A8E34D7C7D4FF3A87 /* [CP] Embed Pods Frameworks */,
+				85DD6B13B227F7131FAD9D32 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,9 +289,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AA1353A1E66A5AC009D01B2 /* sw5.jpg in Resources */,
 				7A914B3C1E556BB90016494A /* LaunchScreen.storyboard in Resources */,
 				7A914B391E556BB90016494A /* Assets.xcassets in Resources */,
-				7A914B371E556BB90016494A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,13 +304,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00BF62D5602FFAF456CC0ED4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		39ECD68A8E34D7C7D4FF3A87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarWarsAsyncDisplayTests/Pods-StarWarsAsyncDisplayTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85DD6B13B227F7131FAD9D32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarWarsAsyncDisplayTests/Pods-StarWarsAsyncDisplayTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D484C5A339951505F2B83C3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarWarsAsyncDisplay/Pods-StarWarsAsyncDisplay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E17F085A8AE1896A5B1D5C79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EBC67B74034963E31CC8D737 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarWarsAsyncDisplay/Pods-StarWarsAsyncDisplay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7A914B2A1E556BB90016494A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A914B341E556BB90016494A /* ViewController.swift in Sources */,
+				7AA135381E669F75009D01B2 /* FilmCellNode.swift in Sources */,
+				7A0EC3A31E5FE1270008BA04 /* Date Extension.swift in Sources */,
+				7A0EC39B1E5FC9BC0008BA04 /* FilmFeedViewController.swift in Sources */,
+				7A0EC39F1E5FE0A30008BA04 /* Film.swift in Sources */,
+				7A0EC3A71E5FE8E70008BA04 /* UIColor + HexColors.swift in Sources */,
+				7AA135301E669D68009D01B2 /* FilmFeedInteractor.swift in Sources */,
+				7A0EC3A51E5FE31F0008BA04 /* SwapiService.swift in Sources */,
+				7AA1353C1E66AA70009D01B2 /* NSAttributedString+Additions.swift in Sources */,
+				7A0EC3AB1E5FEF5D0008BA04 /* FilmFeedDataManager.swift in Sources */,
+				7A0EC3A91E5FE9D60008BA04 /* FilmFeedInteractorIO.swift in Sources */,
 				7A914B321E556BB90016494A /* AppDelegate.swift in Sources */,
+				7AA135361E669ED8009D01B2 /* FilmFeedTableDataProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +436,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7A914B351E556BB90016494A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7A914B361E556BB90016494A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7A914B3A1E556BB90016494A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -337,6 +540,7 @@
 		};
 		7A914B4C1E556BB90016494A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACA0B8A2F72185C8AF135FC9 /* Pods-StarWarsAsyncDisplay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KG5698275Z;
@@ -350,6 +554,7 @@
 		};
 		7A914B4D1E556BB90016494A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 686B98C2A92707C8DD355B7D /* Pods-StarWarsAsyncDisplay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KG5698275Z;
@@ -363,6 +568,7 @@
 		};
 		7A914B4F1E556BB90016494A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9DD740DCC2DBA1DCEE82CB0 /* Pods-StarWarsAsyncDisplayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -378,6 +584,7 @@
 		};
 		7A914B501E556BB90016494A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27CC91C6D435C2FF09A82E8F /* Pods-StarWarsAsyncDisplayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -410,6 +617,7 @@
 				7A914B4D1E556BB90016494A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A914B4E1E556BB90016494A /* Build configuration list for PBXNativeTarget "StarWarsAsyncDisplayTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +626,7 @@
 				7A914B501E556BB90016494A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
