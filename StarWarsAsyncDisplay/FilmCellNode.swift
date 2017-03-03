@@ -42,7 +42,6 @@ class FilmCellNode: ASCellNode {
         
         let photoDimension: CGFloat = constrainedSize.max.width / 2.0
         _backgroundImageView.style.preferredSize = CGSize(width: photoDimension, height: photoDimension)
-//        _filmOpeningCrawlLabel.style.preferredSize = CGSize(width: constrainedSize.max.width, height: constrainedSize.max.height)
         
         // INFINITY is used to make the inset unbounded
         let insets = UIEdgeInsets(top: CGFloat.infinity, left: 12, bottom: 12, right: 12)
@@ -71,7 +70,5 @@ class FilmCellNode: ASCellNode {
         
         return textNode
     }
-
-
 
 }
